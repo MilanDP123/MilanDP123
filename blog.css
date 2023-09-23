@@ -1,0 +1,18 @@
+ul {
+    list-style-type: none;
+    border: solid 3px gray;
+    border-radius: 10px;
+}
+
+li {
+    padding: 5px;
+    border: dotted 2px gray;
+    border-radius: 10px;
+}
+
+
+.blogPosts {
+    display: flex;
+    flex-flow: row wrap;
+}
+
