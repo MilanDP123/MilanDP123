@@ -18,7 +18,7 @@ header {
 }
 
 main {
-    padding: 50px;
+    padding: 50px !important;
     margin: 0px;
     background-color: #495159;
     color: whitesmoke;
