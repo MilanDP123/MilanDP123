@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher or Lower</title>
+    <link rel="stylesheet" href="higherLower.css">
+</head>
+<body onload="onload()">
+    <header>
+        <h1>Higher or Lower</h1>
+    </header>
+    <main>
+        <p>Here you can play the simple game, higher or lower. The rules are simple, you get a playing card and need to guess if the next card will be higher or lower. 'A' is the lowest and 'K' is the highest.</p>
+        <p>You can press the buttons to guess or you can press "h" and "l" on your keyboard.</p>
+        <div class="mainBox">
+            <div id="gameBox">
+                <p>Your current card is:</p>
+                <div id="currentCardLabel"></div> <br>
+                <button class="myButton" onclick="higher()">Higher</button>
+                <button class="myButton" onclick="lower()">Lower</button><br>
+                <label for="text" id="scoreLabel"></label><br>  
+            </div>
+            <div id="gameoverBox" hidden>
+                <label for="text" id="gameoverLabel"></label><br><br>
+                <div id="wrongCard">wrong</div>
+                <button class="myButton" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Made by Milan</p>
+    </footer>
+
+    <script src="higherLower.js"></script>
+</body>
+</html>
