@@ -74,7 +74,7 @@ function incrementScore() {
 }
 
 function gameOver() {
-    gameoverLabel.innerHTML = "Game Over, the card was:";
+    gameoverLabel.innerHTML = "Game Over, you got " + score + " points and the card was:";
     showImage(indexNewCard, indexSuit, wrongCard)
     gameoverBoxAppear()
 }
