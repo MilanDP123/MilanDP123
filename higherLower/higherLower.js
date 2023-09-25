@@ -10,7 +10,7 @@ const valueSuit = ["1","2","3","4"];
 var indexCurrentCard
 var indexSuit
 var indexNewCard
-var score = 0;
+var score;
 
 function newIndex() {
     
