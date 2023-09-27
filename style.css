@@ -1,16 +1,20 @@
 *{
     margin: 0%; 
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
     color: #DDE6ED;
+    background-color: #526D82;
+
 }
 
 .header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 90vw;
+    width: 100vw;
     padding: 20px 100px;
     background-color: #27374D;
     display: flex;
@@ -59,8 +63,12 @@ main {
     background-color: #495159;
     color: whitesmoke;
     font-size: 20px;
-    min-height: 68vh;
+    min-height: 85vh;
     margin-bottom: -65px;
+}
+
+main h4 {
+    margin-bottom: 40px;
 }
 
 footer, .push {

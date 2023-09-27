@@ -56,8 +56,8 @@ function onload() {
     indexCurrentCard = newIndex();
     indexSuit = newSuit();
     showImage(indexCurrentCard, indexSuit, currentCardLabel);
+    score = 0
     gameoverLabel.innerHTML = "";
-    score = 0;
     scoreLabel.innerHTML = "";
     wrongCard.innerHTML = "";
 
