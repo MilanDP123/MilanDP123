@@ -20,6 +20,7 @@ header {
 
 #timer {
     margin-top: 5vh;
+
     font-size: 100px;
     padding: 0;
     
@@ -29,6 +30,8 @@ header {
     height: 45px;
     width: auto;
     padding: 10px;
+    margin-left: -5px;
+    margin-right: -5px;
     background: yellow;
     border-radius: 30px;
     border: 1px solid #000;
@@ -54,7 +57,7 @@ header {
 }
 
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 350px) {
     .myButton {
         height: 70px;
         width: 90px;
