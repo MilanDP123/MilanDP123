@@ -5,7 +5,7 @@ body {
     background: red;
     text-align: center;
     color: #fff;
-    font-family: 'Ubuntu', monospace;
+    font-family: 'Lucida console', monospace;
 }
 
 header {
@@ -48,9 +48,7 @@ header {
     transform: translateY(4px);
 }
 
-#sec {
-    font-family: 'Lucida console';
-}
+
 
 #gameOver {
     font-size: 40px;
@@ -63,4 +61,4 @@ header {
         width: 90px;
         padding: 10px;
     }
-  }
+}
