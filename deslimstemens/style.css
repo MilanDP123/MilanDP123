@@ -1,0 +1,54 @@
+body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: red;
+    text-align: center;
+    color: #fff;
+    font-family: 'Ubuntu', monospace;
+}
+
+header {
+    min-height: 10vh;
+    background: darkblue;
+    color: #fff;
+    font-size: large;
+    margin: 0;
+    padding: 15px;
+}
+
+#timer {
+    font-size: 100px;
+    padding: 0;
+    margin: 15vh 0vh 3vh 0vh;
+    
+}
+
+.myButton {
+    height: 70px;
+    width: 100px;
+    padding: 10px;
+    margin: 0px 0px 40px 0px;
+    background: yellow;
+    border-radius: 30px;
+    border: 1px solid #000;
+    box-shadow: 0 5px #999;
+}
+
+.myButton:hover {
+    background: #C5F828;
+}
+
+.myButton:active {
+    background: #C5F828;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#sec {
+    font-family: 'Lucida console';
+}
+
+#gameOver {
+    font-size: 40px;
+}

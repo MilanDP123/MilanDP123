@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De slimste mens klok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="reset()">
+    <header>
+        <h1>De slimste mens klok</h1> 
+    </header>
+    <main>
+        <div id="timer"> 
+            <span id="sec">60</span>
+            <br>
+            <button class="myButton" onclick="min20sec()">-20 sec</button>
+            <button class="myButton" onclick="startStop()">Start/Stop</button>
+            <button class="myButton" onclick="add20sec()">+20 sec</button>
+        </div>
+        <div id="gameOver" hidden>
+            <p>You have lost!</p>
+        </div>
+        
+        <br>
+        <button class="myButton" onclick="reset()">Reset</button>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
