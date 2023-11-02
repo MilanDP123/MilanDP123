@@ -26,8 +26,8 @@ header {
 }
 
 .myButton {
-    height: 70px;
-    width: 90px;
+    height: 45px;
+    width: auto;
     padding: 10px;
     background: yellow;
     border-radius: 30px;
@@ -52,3 +52,12 @@ header {
 #gameOver {
     font-size: 40px;
 }
+
+
+@media screen and (min-width: 320px) {
+    .myButton {
+        height: 70px;
+        width: 90px;
+        padding: 10px;
+    }
+  }
