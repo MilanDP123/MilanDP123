@@ -13,23 +13,22 @@ header {
     background: darkblue;
     color: #fff;
     font-size: large;
-    margin: 0;
     padding: 15px;
 }
 
 
+
 #timer {
+    margin-top: 5vh;
     font-size: 100px;
     padding: 0;
-    margin: 15vh 0vh 3vh 0vh;
     
 }
 
 .myButton {
     height: 70px;
-    width: 100px;
+    width: 90px;
     padding: 10px;
-    margin: 0px 0px 40px 0px;
     background: yellow;
     border-radius: 30px;
     border: 1px solid #000;
